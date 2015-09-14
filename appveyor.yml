@@ -1,7 +1,7 @@
 environment:
   nodejs_version: "0.12"
 
-clone_folder: c:\projects\gulp-scss
+clone_folder: c:\projects\defaultencodingproof
 
 install:
   - ps: Install-Product node $env:nodejs_version
@@ -13,3 +13,7 @@ test_script:
   - npm test
 
 build: off
+
+after_test:
+  - 7z ar dist.zip dist
+  - ps: Push-AppveyorArtifact dist.zip -DeploymentName distDir
