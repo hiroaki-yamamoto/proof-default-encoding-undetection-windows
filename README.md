@@ -15,3 +15,7 @@ word is accepted, definitely I do :shit:
 
 ## AppVeyor?
 Here is AppVeyor Status (hopefully it should be green): (Oops! not available yet!)
+[![Build status](https://ci.appveyor.com/api/projects/status/76ngqx902lprdise?svg=true)](https://ci.appveyor.com/project/hiroaki-yamamoto/proof-default-encoding-undetection-windows)
+
+## Result
+Somehow the problem counldn't be reproduced in this case...
