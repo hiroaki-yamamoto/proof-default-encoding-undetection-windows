@@ -15,5 +15,5 @@ test_script:
 build: off
 
 after_test:
-  - 7z ar dist.zip dist
+  - 7z a -r dist.zip dist
   - ps: Push-AppveyorArtifact dist.zip -DeploymentName distDir
