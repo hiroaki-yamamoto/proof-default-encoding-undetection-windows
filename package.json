@@ -15,7 +15,7 @@
     "defaultEncoding"
   ],
   "author": "Hiroaki Yamamoto <admin@hysoftware.net>",
-  "license": "MIT",
+  "license": "GPLv3",
   "bugs": {
     "url": "https://github.com/hiroaki-yamamoto/proof-default-encoding-undetection-windows/issues"
   },
